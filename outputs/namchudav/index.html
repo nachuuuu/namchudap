@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nam Chudap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Mono&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <main id="app">
+      <section class="opening" id="opening" aria-label="Opening scene">
+        <div class="opening-copy">
+          <p class="eyebrow">AN INVITATION</p>
+          <p class="presenters">Nishketa &amp; Krishna</p>
+          <h1>present to you</h1>
+          <button id="enterButton" class="enter-button">Click to open the curtains <span>↓</span></button>
+        </div>
+        <div class="curtain curtain-left"></div>
+        <div class="curtain curtain-right"></div>
+        <div class="curtain-tie tie-left"></div>
+        <div class="curtain-tie tie-right"></div>
+      </section>
+
+      <section class="reveal" id="reveal" aria-hidden="true">
+        <p class="eyebrow">WELCOME TO</p>
+        <h2>namchudap<span>.com</span></h2>
+        <p class="tagline">A collective of voices, ideas &amp; action.</p>
+      </section>
+
+      <section class="site" id="site" aria-hidden="true">
+        <header class="nav-wrap">
+          <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="brand-word">Nam Chudap <b>House</b></span></a>
+          <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">Menu</button>
+          <nav id="nav">
+            <a href="#home">Home</a>
+            <a href="#council">Council</a>
+            <a href="#core-four">Portfolio</a>
+            <a href="#activities">Activities</a>
+            <a href="#activities">Resource Hub</a>
+          </nav>
+        </header>
+
+        <section class="hero" id="home">
+          <div class="hex-cluster hex-left" aria-hidden="true"></div>
+          <div class="hex-cluster hex-top" aria-hidden="true"></div>
+          <div class="hero-copy"><h1>Legacy.<br />Leadership.<br /><em>Limitless.</em></h1><p class="hero-intro">Nam Chudap House is a place for ideas, initiative, and impact — built by its council and every voice within it.</p></div>
+          <div class="crest-wrap" aria-label="Nam Chudap House emblem"><div class="crest-halo"></div><div class="crest"><div class="crest-crown">✦</div><div class="crest-monogram">N<span>C</span></div><div class="crest-wings wing-left">≋</div><div class="crest-wings wing-right">≋</div></div></div>
+        </section>
+
+        <section class="people-section" id="council">
+          <div class="section-heading">
+            <p class="eyebrow">01 — THE COUNCIL · UHC</p>
+            <h2>The council<br />in focus.</h2>
+            <p>Guiding the vision, holding the room, and making space for every great idea.</p>
+          </div>
+          <div class="people-grid" data-group="Council">
+            <button class="person-card featured" data-name="Nitish" data-role="House Secretary" data-audio="assets/audio/nitish-secretary.ogg" data-image="assets/images/nitish-secretary.jpeg" data-tone="gold"><span class="photo-placeholder"><img src="assets/images/nitish-secretary.jpeg" alt="Nitish, House Secretary" /></span><span class="person-no">01</span><span class="person-name">Nitish</span><span class="person-role">House Secretary</span></button>
+            <button class="person-card" data-name="Suraj" data-role="Deputy Secretary" data-image="assets/images/deputy-secretary.jpeg" data-audio="assets/audio/suraj-deputy-secretary.mpeg" data-tone="rose"><span class="photo-placeholder"><img src="assets/images/deputy-secretary.jpeg" alt="Suraj, Deputy Secretary" /></span><span class="person-no">02</span><span class="person-name">Suraj</span><span class="person-role">Deputy Secretary</span></button>
+            <button class="person-card" data-name="Bhumika Shah" data-role="Web Admin" data-image="assets/images/bhoomika-shah-web-admin.jpeg" data-audio="assets/audio/bhumika-shah-web-admin.ogg" data-tone="blue"><span class="photo-placeholder"><img src="assets/images/bhoomika-shah-web-admin.jpeg" alt="Bhumika Shah, Web Admin" /></span><span class="person-no">03</span><span class="person-name">Bhumika Shah</span><span class="person-role">Web Admin</span></button>
+            <button class="person-card" data-name="Angu Arnav Reddy" data-role="Activity Head" data-image="assets/images/angu-arnav-reddy.jpeg" data-audio="assets/audio/angu-arnav-reddy.ogg" data-tone="green"><span class="photo-placeholder"><img src="assets/images/angu-arnav-reddy.jpeg" alt="Angu Arnav Reddy, Activity Head" /></span><span class="person-no">04</span><span class="person-name">Angu Arnav Reddy</span><span class="person-role">Activity Head</span></button>
+            <button class="person-card" data-name="Prashant" data-role="UHC Council" data-image="assets/images/prashant.jpeg" data-audio="assets/audio/prashant.ogg" data-tone="gold"><span class="photo-placeholder"><img src="assets/images/prashant.jpeg" alt="Prashant, UHC Council" /></span><span class="person-no">05</span><span class="person-name">Prashant</span><span class="person-role">UHC Council</span></button>
+          </div>
+        </section>
+
+        <section class="people-section lhc-section" id="lhc">
+          <div class="section-heading">
+            <p class="eyebrow">02 — THE COUNCIL · LHC</p>
+            <h2>The lower<br /><em>house council.</em></h2>
+            <p>A dedicated space for the LHC team and the people who carry its work forward.</p>
+          </div>
+          <div class="people-grid tribute-grid" data-group="LHC">
+            <button class="person-card tribute-card" data-name="Tribute to LHC" data-role="LHC" data-video="assets/video/tribute-to-lse.mp4" data-tone="purple"><span class="photo-placeholder">A shared memory</span><span class="person-no">01</span><span class="person-name">Tribute to LHC</span><span class="person-role">Watch the video</span></button>
+          </div>
+        </section>
+
+        <section class="people-section dark-section" id="core-four">
+          <div class="section-heading">
+            <p class="eyebrow">03 — THE CORE FOUR</p>
+            <h2>Four pillars,<br /><em>one purpose.</em></h2>
+            <p>The essential team at the heart of the council’s work.</p>
+          </div>
+          <div class="people-grid core-grid" data-group="Core Four">
+            <button class="person-card" data-name="Nagaraju" data-role="Core Four" data-image="assets/images/nagaraju.jpeg" data-audio="assets/audio/nagaraju.mpeg" data-tone="rose"><span class="photo-placeholder"><img src="assets/images/nagaraju.jpeg" alt="Nagaraju, Core Four" /></span><span class="person-no">01</span><span class="person-name">Nagaraju</span><span class="person-role">Core Four</span></button>
+            <button class="person-card" data-name="Tej" data-role="Core Four" data-image="assets/images/tej.jpeg" data-audio="assets/audio/tej.ogg" data-tone="gold"><span class="photo-placeholder"><img src="assets/images/tej.jpeg" alt="Tej, Core Four" /></span><span class="person-no">02</span><span class="person-name">Tej</span><span class="person-role">Core Four</span></button>
+            <button class="person-card" data-name="Ashi AC" data-role="Core Four" data-image="assets/images/ac.jpeg" data-audio="assets/audio/ashi-ac.mpeg" data-tone="blue"><span class="photo-placeholder"><img src="assets/images/ac.jpeg" alt="Ashi AC, Core Four" /></span><span class="person-no">03</span><span class="person-name">Ashi AC</span><span class="person-role">Core Four</span></button>
+            <button class="person-card" data-name="Nivedya Menon" data-role="Core Four" data-image="assets/images/nivedya-menon.jpeg" data-audio="assets/audio/nivedya-menon.mpeg" data-tone="green"><span class="photo-placeholder"><img src="assets/images/nivedya-menon.jpeg" alt="Nivedya Menon, Core Four" /></span><span class="person-no">04</span><span class="person-name">Nivedya Menon</span><span class="person-role">Core Four</span></button>
+          </div>
+        </section>
+
+        <section class="activities" id="activities">
+          <div class="section-heading"><p class="eyebrow">04 — ACTIVITIES CORNER</p><h2>Every activity,<br />its <em>own rhythm.</em></h2></div>
+          <div class="activity-list">
+            <article class="activity active" data-activity="Clan Forge" data-team="clan-forge"><span class="activity-number">01</span><div><h3>Clan Forge</h3><p>Featured member: BSDK</p></div><span class="activity-arrow">↗</span></article>
+            <article class="activity" data-activity="The Podium" data-team="the-podium"><span class="activity-number">02</span><div><h3>The Podium</h3><p>Moderator: Tanmay · Coordinators: Krishna, Ananya</p></div><span class="activity-arrow">↗</span></article>
+            <article class="activity" data-activity="Knight 64" data-team="knight-64"><span class="activity-number">03</span><div><h3>Knight 64</h3><p>Moderator: Amogha</p></div><span class="activity-arrow">↗</span></article>
+            <article class="activity" data-activity="Pulse of Rhythm" data-team="pulse-of-rhythm"><span class="activity-number">04</span><div><h3>Pulse of Rhythm</h3><p>Moderator: Garima Chandora · Coordinators: Hanvita, Juhi</p></div><span class="activity-arrow">↗</span></article>
+            <article class="activity" data-activity="The Battleground" data-video="assets/video/the-battleground.mp4"><span class="activity-number">05</span><div><h3>The Battleground</h3><p>Watch the BGMI showcase</p></div><span class="activity-arrow">↗</span></article>
+            <article class="activity" data-activity="Pulse of Frame" data-team="pulse-of-frame"><span class="activity-number">06</span><div><h3>Pulse of Frame</h3><p>Moderator: Rehman</p></div><span class="activity-arrow">↗</span></article>
+            <article class="activity" data-activity="Valorant Vanguards" data-video="assets/video/valorant-vanguards.mp4"><span class="activity-number">07</span><div><h3>Valorant Vanguards</h3><p>Watch the Valorant showcase</p></div><span class="activity-arrow">↗</span></article>
+            <article class="activity" data-activity="Firestorm" data-team="firestorm"><span class="activity-number">08</span><div><h3>Firestorm</h3><p>Moderator: Mayank</p></div><span class="activity-arrow">↗</span></article>
+            <article class="activity" data-activity="Geek Squad" data-team="geek-squad"><span class="activity-number">09</span><div><h3>Geek Squad</h3><p>Moderator: Kumuda</p></div><span class="activity-arrow">↗</span></article>
+            <article class="activity" data-activity="Kavya" data-team="kavya"><span class="activity-number">10</span><div><h3>Kavya</h3><p>Moderators: Devesh, Ishan (Kirti Bose)</p></div><span class="activity-arrow">↗</span></article>
+            <article class="activity" data-activity="Trivia Titans" data-team="trivia-titans"><span class="activity-number">11</span><div><h3>Trivia Titans</h3><p>Moderator: Namish Doshi</p></div><span class="activity-arrow">↗</span></article>
+          </div>
+        </section>
+        <footer><a class="brand" href="#home"><span class="brand-word">Nam Chudap <b>House</b></span></a><p>Made with heart, for every voice.</p></footer>
+      </section>
+    </main>
+    <dialog id="profileModal">
+      <button class="modal-close" aria-label="Close profile">×</button>
+      <div class="modal-visual"><video id="modalVideo" controls playsinline hidden></video><img id="modalImage" alt="" hidden /><span id="modalInitial">S</span><span class="sound-waves">)))</span></div>
+      <div class="modal-content"><p class="eyebrow" id="modalRole">HOUSE SECRETARY</p><h2 id="modalName">Nitish</h2><div class="member-intro" id="memberIntro"><p>Introducing Nitish:</p><ul><li>Mystery</li><li>YouTuber</li><li>20 subscribers in 15 minutes — now aiming for 40 within 30 minutes.</li><li>Golgappa lover</li></ul></div><p class="now-playing"><span></span> Their signature sound is playing</p></div>
+    </dialog>
+    <dialog id="activityModal" class="activity-modal">
+      <button class="modal-close activity-modal-close" aria-label="Close activity">×</button>
+      <div class="activity-modal-content">
+        <p class="eyebrow">ACTIVITY TEAM</p><h2>Pulse of Rhythm</h2>
+        <div class="activity-team-grid">
+          <button class="activity-team-member lead" id="garimaProfile"><img src="assets/images/garima-chandora.jpeg" alt="Garima Chandora, Moderator" /><span class="team-label">Moderator</span><strong>Garima Chandora</strong><span class="team-note">Click to meet Garima</span></button>
+          <div class="activity-team-member"><span class="team-label">Coordinator</span><strong>Hanvita</strong></div>
+          <div class="activity-team-member"><span class="team-label">Coordinator</span><strong>Juhi</strong></div>
+        </div>
+      </div>
+    </dialog>
+    <dialog id="podiumModal" class="activity-modal">
+      <button class="modal-close podium-modal-close" aria-label="Close activity">×</button>
+      <div class="activity-modal-content">
+        <p class="eyebrow">ACTIVITY TEAM</p><h2>The Podium</h2>
+        <div class="activity-team-grid">
+          <button class="activity-team-member lead" id="tanmayProfile"><img src="assets/images/tanmay.jpeg" alt="Tanmay, Moderator" /><span class="team-label">Moderator</span><strong>Tanmay</strong><span class="team-note">Click to meet Tanmay</span></button>
+          <button class="activity-team-member lead" id="krishnaProfile"><img src="assets/images/krishna.jpeg" alt="Krishna, Coordinator" /><span class="team-label">Coordinator</span><strong>Krishna</strong><span class="team-note">Click to meet Krishna</span></button>
+          <button class="activity-team-member lead" id="ananyaProfile"><img src="assets/images/ananya.jpeg" alt="Ananya, Coordinator" /><span class="team-label">Coordinator</span><strong>Ananya</strong><span class="team-note">Click to meet Ananya</span></button>
+        </div>
+      </div>
+    </dialog>
+    <dialog id="firestormModal" class="activity-modal">
+      <button class="modal-close firestorm-modal-close" aria-label="Close activity">×</button>
+      <div class="activity-modal-content">
+        <p class="eyebrow">ACTIVITY TEAM</p><h2>Firestorm</h2>
+        <div class="activity-team-grid firestorm-team-grid">
+          <button class="activity-team-member lead" id="mayankProfile"><img src="assets/images/mayank.jpeg" alt="Mayank, Moderator" /><span class="team-label">Moderator</span><strong>Mayank</strong><span class="team-note">Click to meet Mayank</span></button>
+        </div>
+      </div>
+    </dialog>
+    <dialog id="clanForgeModal" class="activity-modal">
+      <button class="modal-close clan-forge-modal-close" aria-label="Close activity">×</button>
+      <div class="activity-modal-content">
+        <p class="eyebrow">ACTIVITY TEAM</p><h2>Clan Forge</h2>
+        <div class="activity-team-grid firestorm-team-grid">
+          <button class="activity-team-member lead" id="bsdkProfile"><img src="assets/images/bsdk.jpeg" alt="BSDK, Clan Forge" /><span class="team-label">Featured member</span><strong>BSDK</strong><span class="team-note">Click to meet BSDK</span></button>
+        </div>
+      </div>
+    </dialog>
+    <dialog id="knightModal" class="activity-modal">
+      <button class="modal-close knight-modal-close" aria-label="Close activity">×</button>
+      <div class="activity-modal-content">
+        <p class="eyebrow">ACTIVITY TEAM</p><h2>Knight 64</h2>
+        <div class="activity-team-grid firestorm-team-grid">
+          <button class="activity-team-member lead" id="amoghaProfile"><img src="assets/images/amogha.jpeg" alt="Amogha, Moderator" /><span class="team-label">Moderator</span><strong>Amogha</strong><span class="team-note">Click to meet Amogha</span></button><button class="activity-team-member lead" id="mohitProfile"><img src="assets/images/mohit.jpeg" alt="Mohit, Coordinator" /><span class="team-label">Coordinator</span><strong>Mohit</strong><span class="team-note">Click to meet Mohit</span></button>
+        </div>
+      </div>
+    </dialog>
+    <dialog id="geekModal" class="activity-modal">
+      <button class="modal-close geek-modal-close" aria-label="Close activity">×</button>
+      <div class="activity-modal-content">
+        <p class="eyebrow">ACTIVITY TEAM</p><h2>Geek Squad</h2>
+        <div class="activity-team-grid firestorm-team-grid">
+          <button class="activity-team-member lead" id="kumudaProfile"><img src="assets/images/kumuda.jpeg" alt="Kumuda, Moderator" /><span class="team-label">Moderator</span><strong>Kumuda</strong><span class="team-note">Click to meet Kumuda</span></button>
+        </div>
+      </div>
+    </dialog>
+    <dialog id="kavyaModal" class="activity-modal">
+      <button class="modal-close kavya-modal-close" aria-label="Close activity">×</button>
+      <div class="activity-modal-content">
+        <p class="eyebrow">ACTIVITY TEAM</p><h2>Kavya</h2>
+        <div class="activity-team-grid kavya-team-grid">
+          <button class="activity-team-member lead" id="deveshProfile"><img src="assets/images/devesh.jpeg" alt="Devesh, Moderator" /><span class="team-label">Moderator</span><strong>Devesh</strong><span class="team-note">Click to meet Devesh</span></button>
+          <button class="activity-team-member lead" id="ishanProfile"><img src="assets/images/ishan-kirti-bose.jpeg" alt="Ishan Kirti Bose, Moderator" /><span class="team-label">Moderator</span><strong>Ishan <small>(Kirti Bose)</small></strong><span class="team-note">Click to meet Ishan</span></button>
+        </div>
+      </div>
+    </dialog>
+    <dialog id="pulseFrameModal" class="activity-modal">
+      <button class="modal-close pulse-frame-modal-close" aria-label="Close activity">×</button><div class="activity-modal-content"><p class="eyebrow">ACTIVITY TEAM</p><h2>Pulse of Frame</h2><div class="activity-team-grid firestorm-team-grid"><button class="activity-team-member lead" id="rehmanProfile"><img src="assets/images/rehman.jpeg" alt="Rehman, Moderator" /><span class="team-label">Moderator</span><strong>Rehman</strong><span class="team-note">Click to meet Rehman</span></button></div></div>
+    </dialog>
+    <dialog id="triviaModal" class="activity-modal">
+      <button class="modal-close trivia-modal-close" aria-label="Close activity">×</button><div class="activity-modal-content"><p class="eyebrow">ACTIVITY TEAM</p><h2>Trivia Titans</h2><div class="activity-team-grid firestorm-team-grid"><button class="activity-team-member lead" id="namishProfile"><img src="assets/images/namish-doshi.jpeg" alt="Namish Doshi, Moderator" /><span class="team-label">Moderator</span><strong>Namish Doshi</strong><span class="team-note">Click to meet Namish</span></button></div></div>
+    </dialog>
+    <script src="script.js"></script>
+  </body>
+</html>
